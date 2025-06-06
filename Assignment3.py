@@ -24,7 +24,7 @@ def main():
         print("2. Search by Major")
         print("3. Quit")
         choice = input("Enter your choice (1-3): ")
-        
+
         if choice == '1':
             lastName = input("Enter the last name of the student: ").strip()
             found = False
@@ -51,8 +51,6 @@ def main():
 
         else:
             print("Invalid choice. Please enter a number between 1 and 3.")
-
-   
 main()
 
-#Note: Couldn't figure out why the print statement for "No student found" was repeating.
+#NOTE: Didn't quite understand what the dictionary had to do with the search given the search had no ID option. If something is missing let me know
